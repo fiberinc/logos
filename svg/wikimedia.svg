@@ -1,4 +1,12 @@
-<svg viewBox="-16 -16 32 32" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+<svg viewBox="-16 -16 32 32" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		path, circle {
+		fill: black;
+		}
+		@media (prefers-color-scheme: dark) {
+		path, circle { fill: white; }
+		}
+	</style>
 	<clipPath id="m">
 		<path d="m1-2v12h-2v-12l-15-15v33h32v-33z" />
 	</clipPath>
